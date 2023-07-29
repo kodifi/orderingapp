@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 3rem;
-    color: white;
+    color: black;
     font-family: monospace;
     margin-left: 30px;
     margin-bottom: 20px;
@@ -17,13 +17,13 @@ h1 {
 
 .corn {
     height: 200px;
-    background-image: url(Img/food.jpg);
+    background-image: url(Img/food.jfif);
     border-radius: 15px;
 }
 
 .corn > p {
     margin-left: 30px;
-    color: white;
+    color: black;
 }
 
 h2 {
