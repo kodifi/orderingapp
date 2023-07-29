@@ -1,0 +1,140 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text' serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: monospace;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.corn {
+    height: 200px;
+    background-image: url(../Img/food.jpg);
+    border-radius: 15px;
+}
+
+.corn > p {
+    margin-left: 30px;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left:65px;
+    color: white;
+    justify-content: space-between;
+    padding: justify;
+    padding-left: 120px;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    height: 100px;
+    padding-top: 30px;
+}
+
+footer p {
+    padding-top: 30px;
+    margin-right: 100px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery div  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding-top: 3rem;
+    flex: none;
+}
+
+.gallery div img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery div img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.order {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.below {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF5757;
+    margin-top: 2rem;
+}
+
+.under {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-ordering {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #FF5757;
+}
+
+.btn {
+    color: #FF5757;
+    font-weight: bold;
+}
